@@ -1,1 +1,6 @@
-# interview-prep
+# Intro to Containers and Docker
+```Container image``` is a package with all the dependencies and information needed to create a container. An image includes all the dependencies (such as frameworks) plus deployment and execution configuration to be used by a container runtime. Usually, an image derives from multiple base images that are layers stacked on top of each other to form the container's filesystem. An image is immutable once it has been created.  
+```Dockerfile``` is a text that contains instructions how to build Docker image.  
+```Container``` is an instance of a Docker image.  
+```Volumes``` offer a writable filesystem. Since images are read-only but most programs need to write to the filesystem, volumes add a writable layer, on top of the container image, so the programs have access to a writable filesystem.  
+```Multi-stage build``` is a feature that helps to reduce the size of the final images. For example, a large image containing SDK can be used to compile and publish and than a small runtime-only base image can be used to host the app.  
