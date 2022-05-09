@@ -56,3 +56,5 @@ A: Chain of http is big no (blocking and low performance, coupling microservices
 * Async messages using pub/sub
 * async HTTP (with retries exponential backoffs and circuit breaker mechanism) polling (using some chron job to raise an call) independently from the original HTTP request/response cycle.
 
+# API Gateway
+Usually multiple and different client apps will call your API Gateway. That fact can be an important risk because your API Gateway service will be growing and evolving based on many different requirements from the client app. Eventually, it will be bloated bacause of those different needs and it can become similar to a monolithic application (monolithic service). That's why ```it is very much recommended to split the API Gateway in multiple services or multiple smaller API Gateways, one per client app for instance```.
