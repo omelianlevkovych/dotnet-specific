@@ -64,3 +64,11 @@ Main features of API Gateway:
 * Routes aggregation.
 * Cross-cutting concerns or gateway offloading. Auth and authorize, service discovery, response caching, retry policies, rate limiting, load balancing, logging; tracing, IP whitelist, headers and query strings and much more.
 
+Main drowbacks of API Gateway:
+* Add dependecies between microservices.
+* Creates possible single point of failure.
+* Can increase response time due to the additional network call.
+* If not scaled out properly, can become a bottleneck.
+* Requires additional development costs and future maintainance.
+
+```https://www.pogsdotnet.com/2018/08/api-gateway-in-nutshell.html```
