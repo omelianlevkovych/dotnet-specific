@@ -57,4 +57,10 @@ A: Chain of http is big no (blocking and low performance, coupling microservices
 * async HTTP (with retries exponential backoffs and circuit breaker mechanism) polling (using some chron job to raise an call) independently from the original HTTP request/response cycle.
 
 # API Gateway
-Usually multiple and different client apps will call your API Gateway. That fact can be an important risk because your API Gateway service will be growing and evolving based on many different requirements from the client app. Eventually, it will be bloated bacause of those different needs and it can become similar to a monolithic application (monolithic service). That's why ```it is very much recommended to split the API Gateway in multiple services or multiple smaller API Gateways, one per client app for instance```.
+Usually multiple and different client apps will call your API Gateway. That fact can be an important risk because your API Gateway service will be growing and evolving based on many different requirements from the client app. Eventually, it will be bloated bacause of those different needs and it can become similar to a monolithic application (monolithic service). That's why ```it is very much recommended to split the API Gateway in multiple services or multiple smaller API Gateways, one per client app for instance```.  
+The API Gateway should not cover all microservices, but be segregated based on business boundaries and the client apps.  
+Main features of API Gateway:
+* Reverse proxy or gateway routing (usually layer 7 routing, HTTP requests). This is great for ```monolith to microserivces migration``` because you can create API Gateway for client app and monolith, and iterationally creating microservices and updating only API Gateway to call new microserivces.
+* Routes aggregation.
+* Cross-cutting concerns or gateway offloading. Auth and authorize, service discovery, response caching, retry policies, rate limiting, load balancing, logging; tracing, IP whitelist, headers and query strings and much more.
+
