@@ -72,3 +72,7 @@ Main drowbacks of API Gateway:
 * Requires additional development costs and future maintainance.
 
 ```https://www.pogsdotnet.com/2018/08/api-gateway-in-nutshell.html```
+
+# Communication in the microservice architecture
+https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
+
