@@ -76,3 +76,4 @@ Main drowbacks of API Gateway:
 # Communication in the microservice architecture
 https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
 
+.
