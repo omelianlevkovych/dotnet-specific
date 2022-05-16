@@ -91,3 +91,14 @@ public class ProductPriceChangedEvent : IntegrationEvent
 ```
 
 The integration events can be defined at the application level of each microservice, so they are ```decoupled from other microservices```, in a way comparable to how ViewModels are defined in the server and client. What ```is not recommended is sharing a common integration events library across multiple microservices; doing that would be coupling those microservices with a single event definition data library```. You do not want to do that for the same reasons that you do not want to share a common domain model accross multiple microservices: microservices must be completely autonomous.
+
+
+# the middleman or event bus
+how do you achieve anonymity between publisher and subscriber? An easy way is to allow the middleman to take care of all the communication. An event bus is such a middleman.  
+An event bus is typically composed of two parts:
+* the abstraction (interface)
+* one or more implementations
+
+# idempotency in update message events
+an important aspect of update message events is that failure at any point in the communication should cause the message to be retried. Make sure that the updates are either idempotent or that they provide enough information to ensure that you can detect a dublicate, discard it, and send back only one response.  
+It is also convinient th have some kind of identity per event so that you can create logic that enforces that each event is processed only once per receiver.
