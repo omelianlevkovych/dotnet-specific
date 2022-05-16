@@ -76,4 +76,18 @@ Main drowbacks of API Gateway:
 # Communication in the microservice architecture
 https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
 
-.
+# Designing and developing microservices
+The bottom line is that each microservice can have a different internal architecture based on different design patterns. Not all microservices should be implemented using advanced DDD patterns, because that would be over engineering. Similarly, complex microservices with ever-changing business logic should not be implemented as CRUD operations, or you can end up with low-quality code.
+
+# Implementing event-based communication between microservices (integration events)
+An ```integration event``` is basically a data-holding class, like DTO:
+```dotnet
+public class ProductPriceChangedEvent : IntegrationEvent
+{
+    public int ProductId { get; set; }
+    public int NewPrice { get; set; }
+    // constructors maybe,etc
+}
+```
+
+The integration events can be defined at the application level of each microservice, so they are ```decoupled from other microservices```, in a way comparable to how ViewModels are defined in the server and client. What ```is not recommended is sharing a common integration events library across multiple microservices; doing that would be coupling those microservices with a single event definition data library```. You do not want to do that for the same reasons that you do not want to share a common domain model accross multiple microservices: microservices must be completely autonomous.
