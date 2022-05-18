@@ -88,3 +88,6 @@ motivation:
 * autonomy
 * mastery
 * purpose
+
+# the final goal of behavior interview
+is to figure out whether you will make the work done, they are not looking for drinking buddy after all;
