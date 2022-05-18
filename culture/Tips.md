@@ -61,3 +61,30 @@ A people hire other A people; B people hire C people
 patterns:
 * lose the ego
 have as self-confidence and cultivate a strong ```collective team ego and identnty```
+* relax
+master the ability to maintain calm at all times. No matter who blew up, no matter
+what crazy thing happened,no matter how big the firestorm, never panic
+* ask questions
+the engineer asking for advice typically doesn't want you to solve his problem, but
+rather to help ```him``` solve it, and the easiest way to do this is to ask him questions
+* be a teacher and a mentor
+give just enough information the person need, dont overexplain
+* be honest
+I won't lie to you, but I will tell you when I can't tell you something or if I just don't know
+* track happiness
+
+other tips:
+* get your hands dirty asap
+one of the easiest ways to gain the team's respect and get up to speed on what the're doing is to
+get your hands dirty - usually by taking on a grungy task no one else wants to do; you can have
+resume and list of achievements a mile long, but nothing lets a team know how skillful and dedicated
+(and humble) you are like jumping in and actually doing some hard work
+
+* seek to replace yourself
+* sheild your team from entropy
+* tolerate things that can be easy undone, and thing 10x times about hard decisions
+
+motivation:
+* autonomy
+* mastery
+* purpose
