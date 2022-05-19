@@ -91,3 +91,79 @@ motivation:
 
 # the final goal of behavior interview
 is to figure out whether you will make the work done, they are not looking for drinking buddy after all;
+
+
+# avoid
+## not respecting others time
+other than spending a few minutes of their own time reading fundamental project documentation, mission
+statements, FAQs, or the last email discussion treads, toxic people repeatedly distract the entire team with
+questions things they could easy figure out on their own
+## ego
+## overentitlement
+## paranoia
+## perfectionism
+
+
+# the art of organizational manipulation (politics, social engineering)
+## your life under ideal manager
+- ```pursue extra responsibility```. dont only cut trees; draw on map all trees to cut, come back and discuss
+with senior treecutters how more optimal you all can cut the treees
+- ```take risks and don't fear failure```. and if fail; fail fast
+- ```act like an adult```
+- ```question things that you are unsure about```
+- ```your manager is not clairvoyant``` its hard to overcommunicate; update your team's leader on what
+you're doing before she asks you what's going on
+## your life under bad manager
+some red flags of bad manager:
+- fear of failure
+- insecure manager will insist on inserting herself into any interaction you have with people outside
+your team, and preventing you speaking directly to other teams
+
+# bad organizations
+acknowledge the way things are, and focus on navigating your organization's structure to find the
+mechanisms you can use to get things done and to carve out a happy place for yourself in your company.  
+Whether you are in a good organization or a bad one, there a number of strategies that we've found to be
+quite effective at getting things done.
+## it's easier to ask for forgiveness than permission :)
+while asking for permission does give you an opportunity to push responsibility onto someone else, it also
+creates an opportunity for someone to tell you 'no'  
+```choose your battles wisely``` - every time you have to plead your case for something or go up against someone
+else in your company, you are spending your political capital. If you spend all your capital winning a bunch of
+battles that just don't matter, you're going to find you have nothing left in your account when it comes to the
+important things. Be strategic and fight for things that rather matter or that you're pretty sure you have some
+chance of winning.
+## if you cant take the path, make the path
+if you can get enough people to buy into your idea or use a particular product, it will often be too late for the
+bureaucracy to squash you, and management will be forced to notice (you and your idea) and either accept it or act
+against it (which cost them political capital!)
+## learn to manage upward
+ensure that both your manager and the people outside your team are not only aware of what you are doing, but are aware
+that you are doing it well. some engineers find this model of 'selling yourself'ugly, and it may remain so, but the benefits
+of doing this are huge. basically, you need to ```underpromise and overdeliver whenever possible```  
+try to avoid, whenever you can, promising things that you can't deliver, even if it means saying 'no' more often than you want to  
+if you constantly miss deadlines and drop features, other people in the company will have less of a reason to trust you and will
+most likely pass over you when the're looking for someone to get something done  
+as an engineer, try to focus on ```launching products (features)``` over just about anything else  
+```shipping things gives you credibility, reputation, and political capital more than just about anything else in the company```  
+as tempting as it might be to spend a ton of time cleaning up your code base and refactoring things, we've learned from experience
+that if you dedicate more that half of your time to this kind of defensive work, it's hardly valued at all and you'll find yourself in
+the somewhat emberrassing position of having nothing (politically) important to show for your time  
+```offensive work``` is typically effort toward new user-visible features, while ```defensive work``` is effort aimed at the long-term
+health of the product (code refactoring, feature rewrites, data migration, improvement of emergency monitoring). Unfortunatelly, the truth
+about life is that you dont get any political credit by doing defensive work.  
+rule: ```no more than 1/3 of your time for defensive work``` - otherwise political suicide  
+## luck and the favor economy
+every job has this sort of gray-market economy; there's usually something you can quickly and easily do that benefits your company but
+is someone's else job, and if you keep your eyes open for the chance to do these things, you will earn a bit of credit in this favour economy  
+think of these credits like a small bets: someone will never pay you back, other will pay even more, and still other will pay enormous dividents  
+## get promoted to a position of safety
+in most companies, you need to put some amount of effort into 'playing the promotion game' to get yourself promoted (usually in addition to 
+excelling at your job)  
+putting an effort toward getting promoted when you're comfortable in your position is a great way to invest in your security and happiness when
+something bad happens to your company or team (new aswhole manager, etc)  
+```keep track of your accomplishments and use them in your selfassesments```  
+## seek powerful friends
+## plan B: Get Out
+```do the right things, and wait to get fired```; if you dont get fired, you have done the Right Thing for everyone. If you do get fired,
+this is the wrong employer to work for in the first place. So, either way, win-win.  
+
